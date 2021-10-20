@@ -2,11 +2,11 @@
 
 ### Screenshot
 
-![](./src/images/screencapture.png)
+![](./images/screencapture.png)
 
 ### Links
 
-- Live Site URL: [My Finished Design](https://dazzling-fermi-a3ee80.netlify.app/)
+- Live Site URL: [My Finished Design](https://stoic-albattani-2b34e3.netlify.app/)
 
 ### Built with
 
