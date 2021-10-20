@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![](./images/screencapture.png)
+![](./src/Images/screencapture.png)
 
 ### Links
 
