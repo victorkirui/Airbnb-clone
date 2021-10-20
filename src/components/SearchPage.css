@@ -1,0 +1,15 @@
+.search_info {
+  padding: 20px;
+}
+.search_info p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.search_info h1 {
+  margin-bottom: 30px;
+}
+.search_info button {
+  border-radius: 30px;
+  margin-right: 5px;
+  text-transform: inherit;
+}

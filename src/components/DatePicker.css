@@ -2,6 +2,7 @@
   position: absolute;
   top: 35px;
   left: 25%;
+  background: #fff;
 }
 .date_Wrapper {
   position: relative;
@@ -25,10 +26,11 @@
   border: 1px solid lightgray;
 }
 .date_Wrapper > button {
+  border-radius: 0 !important;
   background: #ff7779;
   color: #fff;
-  width: 98%;
-  margin: 0px 1%;
+  width: 100%;
+  margin: 0px;
   box-sizing: border-box;
   margin-top: 10px;
   text-transform: inherit !important;

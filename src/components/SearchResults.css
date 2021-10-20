@@ -1,0 +1,66 @@
+.search_results_container {
+  position: relative;
+  display: flex;
+  margin: 20px 0px;
+  padding: 20px 0px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+  opacity: 1;
+}
+.search_results_container:hover {
+  opacity: 0.8;
+}
+.search_results_container img {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hiden;
+}
+.fav_icon {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+.search_info_container {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.results_info_top {
+  width: 40vw;
+}
+.results_info_top h3 {
+  margin: 10px 0px;
+  font-weight: 400;
+}
+.results_info_top p {
+  color: gray;
+  margin-top: 10px;
+}
+.results_info_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.star {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.star_icon {
+  color: #ff385c;
+  font-size: 19px !important;
+}
+.price {
+  position: absolute;
+  bottom: 20px;
+  right: 40px;
+}
+.price h5 {
+  text-align: right;
+  color: #333;
+}
+.price h3 {
+  font-size: 18px;
+}
