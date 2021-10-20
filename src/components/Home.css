@@ -1,3 +1,5 @@
-.home {
-  color: red;
+.card_wrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 2vw 5vw;
 }

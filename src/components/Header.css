@@ -1,25 +1,40 @@
 .logo {
-  height: 40px;
-  margin-left: 20px;
+  height: 30px;
   object-fit: contain;
+  cursor: pointer;
 }
 .header {
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  padding: 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid lightgray;
 }
 .header_center {
   display: flex;
   align-items: center;
   flex: 1;
+  max-width: fit-content;
+  border: 1px solid lightgray;
+  padding: 7px 15px;
+  border-radius: 999px;
 }
 .header_center input {
   outline: none;
+  border: none;
+}
+.pointer {
+  cursor: pointer;
 }
 .header_right {
   display: flex;
   align-items: center;
   width: 18vw;
   justify-content: space-between;
-  margin-right: 20px;
 }

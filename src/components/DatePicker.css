@@ -1,0 +1,39 @@
+.date_picker {
+  position: absolute;
+  top: 35px;
+  left: 25%;
+}
+.date_Wrapper {
+  position: relative;
+}
+.date_Wrapper h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  font-size: 16px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.date_Wrapper > input {
+  width: 98%;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: 0px 1%;
+  outline: none;
+  border: 1px solid lightgray;
+}
+.date_Wrapper > button {
+  background: #ff7779;
+  color: #fff;
+  width: 98%;
+  margin: 0px 1%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  text-transform: inherit !important;
+}
+.date_Wrapper > button:hover {
+  background: #fff;
+  color: #ff385c;
+}

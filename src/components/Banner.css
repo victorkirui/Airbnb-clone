@@ -1,0 +1,40 @@
+.banner {
+  height: 70vh;
+  width: 100%;
+  background: url("../Images/bannerbg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.search_dates {
+  display: flex;
+  flex-direction: column;
+}
+.search_dates_btn {
+  color: #ff385c !important;
+  background: #fff !important;
+  text-transform: inherit !important;
+}
+.banner_content {
+  background: #000;
+  width: 350px;
+  padding-top: 25vh;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+.banner_content p {
+  margin: 15px 0;
+}
+.banner_content > button {
+  background: #ff385c;
+  color: #fff;
+  text-transform: inherit !important;
+}
+.banner_content > button:hover {
+  color: #ff385c;
+  background: #fff;
+  transition: all 0.3s ease;
+}
