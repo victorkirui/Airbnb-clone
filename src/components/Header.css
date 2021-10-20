@@ -1,0 +1,25 @@
+.logo {
+  height: 40px;
+  margin-left: 20px;
+  object-fit: contain;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_center {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.header_center input {
+  outline: none;
+}
+.header_right {
+  display: flex;
+  align-items: center;
+  width: 18vw;
+  justify-content: space-between;
+  margin-right: 20px;
+}
